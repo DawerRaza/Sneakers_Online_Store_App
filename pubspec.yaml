@@ -1,0 +1,35 @@
+name: sneaker_buy_app
+description: Where User can buy sneaker. online app.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  google_nav_bar: ^5.0.6
+  provider:
+  material_symbols_icons: ^4.2785.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - images/
+
